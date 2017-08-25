@@ -1,0 +1,7 @@
+bin/
+obj/
+.vs/
+packages/
+node_modules/
+*.suo
+*.user
