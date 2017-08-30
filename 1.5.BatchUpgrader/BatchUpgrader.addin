@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Assembly>BatchUpgrader.dll</Assembly>
+    <ClientId>a3ede8e2-477f-4ea6-b0b5-3ffd41963c9b</ClientId>
+    <FullClassName>BatchUpgrader.Command</FullClassName>
+    <Text>BatchUpgrader</Text>
+    <Description>Upgrade all files in selected folder</Description>
+    <VisibilityMode>AlwaysVisible</VisibilityMode>
+    <VendorId>RAPP</VendorId>
+    <VendorDescription>RevitApp, www.revitapp.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>
