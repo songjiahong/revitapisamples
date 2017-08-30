@@ -69,6 +69,7 @@ namespace BatchUpgrader
             TargetFolder.Focus();
             return;
          }
+         // make sure that the source folder and target folder don't overlap
          string sourceFolder = SourceFolder.Text.TrimEnd('\\'), targetFolder = TargetFolder.Text.TrimEnd('\\');
          if (sourceFolder.IndexOf(targetFolder, StringComparison.OrdinalIgnoreCase) == 0 
             || targetFolder.IndexOf(sourceFolder, StringComparison.OrdinalIgnoreCase) == 0)
@@ -89,6 +90,7 @@ namespace BatchUpgrader
                return;
             }
          }
+         // at least select one file type
          if (cbRvt.IsChecked == false && cbRfa.IsChecked == false)
          {
             MessageBox.Show("At least check one Revit file type!");
@@ -103,6 +105,7 @@ namespace BatchUpgrader
          {
             Directory.CreateDirectory(targetFolder);
          }
+         // find all files including sub directories based on selected types
          var files = Directory.EnumerateFiles(sourceFolder, "*.*", SearchOption.AllDirectories)
                         .Where(s => (includeRvt && s.EndsWith(".rvt", StringComparison.OrdinalIgnoreCase))
                                        || (includeRfa && s.EndsWith(".rfa", StringComparison.OrdinalIgnoreCase)));
@@ -121,6 +124,7 @@ namespace BatchUpgrader
                failed++;
             }
             current++;
+            // show progress when more than 5 percent
             tempVal = current * 100 / count;
             if (tempVal - 5 > curStep)
             {
@@ -131,6 +135,7 @@ namespace BatchUpgrader
          }
          progressBar.Value = 100;
          RAPWPF.WpfApplication.DoEvents();
+         // show summary information
          MessageBox.Show("Upgrade " + success + " files successfully, " + failed + " files failed.");
          Close();
       }
@@ -177,6 +182,7 @@ namespace BatchUpgrader
          }
          catch (Exception ex)
          {
+            // write error message into log file
             logError(targetFolder, fileName, ex.Message);
             return false;
          }
