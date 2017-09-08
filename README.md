@@ -3,3 +3,6 @@ Revit addin samples using Revit API. These samples are corresponding to a book r
 
 ## 1.5.BatchUpgrader
 Batch upgrade all Revit files (rvt or rfa) in a given folder.
+
+## FBXExporter
+Export all Revit files (rvt) in a given folder as fbx files.

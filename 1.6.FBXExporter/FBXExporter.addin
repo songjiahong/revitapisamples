@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Assembly>FBXExporter.dll</Assembly>
+    <ClientId>01619627-e622-4c77-a12f-8c117b5f20a8</ClientId>
+    <FullClassName>FBXExporter.Command</FullClassName>
+    <Text>FBXExporter</Text>
+    <Description>Export all files in selected folder to fbx file</Description>
+    <VisibilityMode>AlwaysVisible</VisibilityMode>
+    <VendorId>RAPP</VendorId>
+    <VendorDescription>RevitApp, www.revitapp.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>
