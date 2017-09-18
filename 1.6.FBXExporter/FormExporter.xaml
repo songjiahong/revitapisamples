@@ -11,7 +11,6 @@
          <RowDefinition Height="32"/>
          <RowDefinition Height="32"/>
          <RowDefinition Height="32"/>
-         <RowDefinition Height="32"/>
       </Grid.RowDefinitions>
       <Label Content="Folder: " HorizontalAlignment="Left" Margin="10,6,0,0" VerticalAlignment="Top"/>
       <TextBox x:Name="SourceFolder" Height="26" Margin="104,6,48.333,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top"/>
