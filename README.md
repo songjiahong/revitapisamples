@@ -6,3 +6,6 @@ Batch upgrade all Revit files (rvt or rfa) in a given folder.
 
 ## 1.6.FBXExporter
 Export all Revit files (rvt) in a given folder as fbx files.
+
+## 1.7.GridCreation
+Quickly create grids based on base point and distances.

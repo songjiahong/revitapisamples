@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Assembly>GridCreation.dll</Assembly>
+    <ClientId>77ef0669-70df-472a-9fd3-3d32c0eb266d</ClientId>
+    <FullClassName>GridCreation.Command</FullClassName>
+    <Text>GridCreation</Text>
+    <Description>Create Grids based on spaces and base point</Description>
+    <VisibilityMode>AlwaysVisible</VisibilityMode>
+    <VendorId>RAPP</VendorId>
+    <VendorDescription>RevitApp, www.revitapp.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>

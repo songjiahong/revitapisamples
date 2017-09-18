@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26430.16
+VisualStudioVersion = 15.0.26730.15
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.5.BatchUpgrader", "1.5.BatchUpgrader\1.5.BatchUpgrader.csproj", "{82244347-47A6-4DC2-97B7-72B4185271FF}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.6.FBXExporter", "1.6.FBXExporter\1.6.FBXExporter.csproj", "{90189EF4-D8E4-483B-AAD5-90ABBBCDFB50}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.7.GridCreation", "1.7.GridCreation\1.7.GridCreation.csproj", "{F60141CA-9EE0-437C-B721-B24D6896AA1A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,8 +23,15 @@ Global
 		{90189EF4-D8E4-483B-AAD5-90ABBBCDFB50}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{90189EF4-D8E4-483B-AAD5-90ABBBCDFB50}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{90189EF4-D8E4-483B-AAD5-90ABBBCDFB50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F60141CA-9EE0-437C-B721-B24D6896AA1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F60141CA-9EE0-437C-B721-B24D6896AA1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F60141CA-9EE0-437C-B721-B24D6896AA1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F60141CA-9EE0-437C-B721-B24D6896AA1A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {433EC46C-B4D8-4864-ACA8-2BDC3FBD0F86}
 	EndGlobalSection
 EndGlobal
