@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace FBXExporter
 {
-   [Transaction(TransactionMode.Manual)]
+   [Transaction(TransactionMode.ReadOnly)]
    [Regeneration(RegenerationOption.Manual)]
    public class Command : IExternalCommand
    {
