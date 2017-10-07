@@ -1,0 +1,22 @@
+﻿<Window x:Class="BatchFamilyExport.FormExport"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:BatchFamilyExport"
+             Title="Batch Family Exporter"
+             Height="143.648" Width="390" FocusManager.FocusedElement="{Binding ElementName=TargetFolder}">
+   <Grid>
+      <Grid.RowDefinitions>
+         <RowDefinition Height="38"/>
+         <RowDefinition Height="32"/>
+         <RowDefinition/>
+      </Grid.RowDefinitions>
+      <Label Content="Target Folder: " HorizontalAlignment="Left" Margin="10,6,0,0" VerticalAlignment="Top"/>
+      <TextBox x:Name="TargetFolder" Height="26" Margin="104,6,48,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top"/>
+      <Button x:Name="btnTarget" Content="..." HorizontalAlignment="Right" Margin="0,6,10,0" VerticalAlignment="Top" Width="32" Height="26" Click="btnTarget_Click"/>
+      <ProgressBar x:Name="progressBar" HorizontalAlignment="Stretch" Height="26" Margin="10,0,10,0" Grid.Row="1" VerticalAlignment="Top" />
+      <Button x:Name="btnExport" Content="Export" HorizontalAlignment="Right" Margin="0,0,96,0" Grid.Row="2" VerticalAlignment="Top" Height="26" Width="80" Click="btnExport_Click"/>
+      <Button x:Name="btnClose" Content="Close" HorizontalAlignment="Right" Margin="0,0,10,0" Grid.Row="2" VerticalAlignment="Top" Height="26" Width="80" IsCancel="True"/>
+   </Grid>
+</Window>

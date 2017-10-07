@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Assembly>BatchFamilyExport.dll</Assembly>
+    <ClientId>ef5fc479-64ec-4f00-86fc-b4904f56f3ab</ClientId>
+    <FullClassName>BatchFamilyExport.Command</FullClassName>
+    <Text>BatchFamilyExport</Text>
+    <Description>Export all custom families of a document to a folder</Description>
+    <VisibilityMode>AlwaysVisible</VisibilityMode>
+    <VendorId>RAPP</VendorId>
+    <VendorDescription>RevitApp, www.revitapp.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>

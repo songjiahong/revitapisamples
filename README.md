@@ -9,3 +9,6 @@ Export all Revit files (rvt) in a given folder as fbx files.
 
 ## 1.7.GridCreation
 Quickly create grids based on base point and distances.
+
+## 1.8.BatchFamilyExport
+Export all custom families in a document to specified folder.
