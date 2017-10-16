@@ -12,3 +12,6 @@ Quickly create grids based on base point and distances.
 
 ## 1.8.BatchFamilyExport
 Export all custom families in a document to specified folder.
+
+## 1.9.RoomNumbering
+Rename all rooms in the document based on their level.

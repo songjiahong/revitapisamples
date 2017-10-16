@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Assembly>RoomNumbering.dll</Assembly>
+    <ClientId>6537d8d3-4263-4234-b141-d6bef3fddbd3</ClientId>
+    <FullClassName>RoomNumbering.Command</FullClassName>
+    <Text>RoomNumbering</Text>
+    <Description>Rename all rooms of a document based on level</Description>
+    <VisibilityMode>AlwaysVisible</VisibilityMode>
+    <VendorId>RAPP</VendorId>
+    <VendorDescription>RevitApp, www.revitapp.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>
