@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.8.BatchFamilyExport", "1.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.9.RoomNumbering", "1.9.RoomNumbering\1.9.RoomNumbering.csproj", "{75E7522C-6394-48B6-85F5-45CD790FE1EB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.10.BatchUpgrader", "1.10.BatchUpgrader\1.10.BatchUpgrader.csproj", "{B5FE77CC-052B-4513-88AE-E2EC0F75C4D1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{75E7522C-6394-48B6-85F5-45CD790FE1EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{75E7522C-6394-48B6-85F5-45CD790FE1EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{75E7522C-6394-48B6-85F5-45CD790FE1EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5FE77CC-052B-4513-88AE-E2EC0F75C4D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5FE77CC-052B-4513-88AE-E2EC0F75C4D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5FE77CC-052B-4513-88AE-E2EC0F75C4D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5FE77CC-052B-4513-88AE-E2EC0F75C4D1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
