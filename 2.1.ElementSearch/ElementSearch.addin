@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Application">
+    <Assembly>ElementSearch.dll</Assembly>
+    <ClientId>ead61b28-195c-4ff3-8e2b-c01434e82e76</ClientId>
+    <FullClassName>ElementSearch.Application</FullClassName>
+    <Name>ElementSearch</Name>
+    <Description>Search and show element in a document based on category and name</Description>
+    <VisibilityMode>AlwaysVisible</VisibilityMode>
+    <VendorId>RAPP</VendorId>
+    <VendorDescription>RevitApp, www.revitapp.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>

@@ -18,3 +18,6 @@ Rename all rooms in the document based on their level.
 
 ## 1.10.BatchUpgrader
 Batch upgrade all Revit files (rvt or rfa) in a given folder with customized Ribbon tab and button.
+
+## 2.1. ElementSearch
+Search and show element in a document based on category and name.
