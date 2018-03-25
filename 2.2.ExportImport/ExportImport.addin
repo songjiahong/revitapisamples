@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Application">
+    <Assembly>ExportImport.dll</Assembly>
+    <ClientId>a706d3ee-683b-4d8a-b2c6-c3a7464be1f6</ClientId>
+    <FullClassName>ExportImport.Application</FullClassName>
+    <Name>ExportImport</Name>
+    <Description>Export/import elements in a document to/from a csv file</Description>
+    <VisibilityMode>AlwaysVisible</VisibilityMode>
+    <VendorId>RAPP</VendorId>
+    <VendorDescription>RevitApp, www.revitapp.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>

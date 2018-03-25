@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.10.BatchUpgrader", "1.10.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.1.ElementSearch", "2.1.ElementSearch\2.1.ElementSearch.csproj", "{CE32E0F3-1E4C-44DE-9A98-7D71E3777D9D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.2.ExportImport", "2.2.ExportImport\2.2.ExportImport.csproj", "{812AB46C-DB5B-46E4-8879-298E5F7CC0D7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{CE32E0F3-1E4C-44DE-9A98-7D71E3777D9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CE32E0F3-1E4C-44DE-9A98-7D71E3777D9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CE32E0F3-1E4C-44DE-9A98-7D71E3777D9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{812AB46C-DB5B-46E4-8879-298E5F7CC0D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{812AB46C-DB5B-46E4-8879-298E5F7CC0D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{812AB46C-DB5B-46E4-8879-298E5F7CC0D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{812AB46C-DB5B-46E4-8879-298E5F7CC0D7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
