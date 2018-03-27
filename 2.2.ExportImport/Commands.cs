@@ -11,8 +11,8 @@ namespace ExportImport
         public Result Execute(ExternalCommandData commandData, ref string message, ElementSet elements)
         {
             var doc = commandData.Application.ActiveUIDocument.Document;
-            var filePath = @"C:\TempFiles\text.csv";
-            var allElements = ElementSearch.GetAllElements(doc);
+            var filePath = @"C:\TempFiles\walls.csv";
+            var allElements = ElementSearch.GetAllElements(doc, BuiltInCategory.OST_Walls);
             Exporter.ToCsv(filePath, allElements);
 
             return Result.Succeeded;
