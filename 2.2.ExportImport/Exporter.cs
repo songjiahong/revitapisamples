@@ -38,7 +38,10 @@ namespace ExportImport
                     {
                         paramNames.Add(paramName);
                     }
-                    oneRow.Add(paramName, Csv.Escape(GetParamValue(param)));
+                    if (oneRow.ContainsKey(paramName) == false)
+                    {
+                        oneRow.Add(paramName, Csv.Escape(GetParamValue(param)));
+                    }
                 }
                 values.Add(oneRow);
             }

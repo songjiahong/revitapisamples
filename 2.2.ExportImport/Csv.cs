@@ -4,6 +4,9 @@
     {
         public static string Escape(string s)
         {
+            if (string.IsNullOrEmpty(s))
+                return string.Empty;
+
             if (s.Contains(QUOTE))
                 s = s.Replace(QUOTE, ESCAPED_QUOTE);
 
@@ -15,6 +18,9 @@
 
         public static string Unescape(string s)
         {
+            if (string.IsNullOrEmpty(s))
+                return string.Empty;
+
             if (s.StartsWith(QUOTE) && s.EndsWith(QUOTE))
             {
                 s = s.Substring(1, s.Length - 2);
