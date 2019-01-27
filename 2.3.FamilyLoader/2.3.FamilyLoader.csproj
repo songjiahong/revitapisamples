@@ -49,17 +49,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Application.cs" />
+    <Compile Include="DefaultFamilyLoadOptions.cs" />
     <Compile Include="Commands.cs" />
-    <Compile Include="Csv.cs" />
-    <Compile Include="ElementSearch.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="Icons\Export16.png" />
-    <EmbeddedResource Include="Icons\Export32.png" />
-    <EmbeddedResource Include="Icons\Import16.png" />
-    <EmbeddedResource Include="Icons\Import32.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
