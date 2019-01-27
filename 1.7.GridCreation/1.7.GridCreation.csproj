@@ -34,11 +34,11 @@
     <Reference Include="PresentationCore" />
     <Reference Include="PresentationFramework" />
     <Reference Include="RevitAPI">
-      <HintPath>..\Thirdparty\Autodesk\Revit2017\RevitAPI.dll</HintPath>
+      <HintPath>..\Thirdparty\Autodesk\Revit2018\RevitAPI.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="RevitAPIUI">
-      <HintPath>..\Thirdparty\Autodesk\Revit2017\RevitAPIUI.dll</HintPath>
+      <HintPath>..\Thirdparty\Autodesk\Revit2018\RevitAPIUI.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System" />
