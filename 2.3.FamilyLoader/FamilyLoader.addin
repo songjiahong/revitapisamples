@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Assembly>FamilyLoader.dll</Assembly>
+    <ClientId>9636B0AF-1B18-47AC-BD14-EF8831812539</ClientId>
+    <FullClassName>FamilyLoader.CommandLoader</FullClassName>
+    <Text>FamilyLoader</Text>
+    <Description>Load all family files in selected folder</Description>
+    <VisibilityMode>AlwaysVisible</VisibilityMode>
+    <VendorId>RAPP</VendorId>
+    <VendorDescription>RevitApp, www.revitapp.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>
